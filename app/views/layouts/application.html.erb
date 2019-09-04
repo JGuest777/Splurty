@@ -33,9 +33,23 @@
     <hr />
 
     <br class="clear" />
-
+  <div class="containe">
     <%= yield %>
+  </div>
 
+  <div class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+          <%= link_to "This isn't enough, Give me more!", "#", class: 'next-quote' %>
+        </div>
+        <div class="col-6 footer-blurb">
+          Proudly hacked by <a href="https://jamesguest.netlify.com/">James Guest</a><br />
+          Want to build your own Splurty Web App - <a href="https://online.bootcampspot.com">Learn how to code here</a>
+        </div>
+      </div>
+    </div>
+  </div>
 
   </body>
 </html>
