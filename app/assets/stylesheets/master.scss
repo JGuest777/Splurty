@@ -68,6 +68,12 @@ h2 {
 	font-family: 'sinkin_sans500_medium_italic';
 }
 
+h2 span {
+	color: #dddddd;
+	font-family: 'sinkin_sans400_regular';
+	font-size: 24px;
+}
+
 .next-quote {
 	color: #f84342;
 	font-family: 'sinkin_sans400_regular';
@@ -85,4 +91,19 @@ h2 {
 
 .logo:hover {
 	text-decoration: none;
+}
+
+.modal {
+	font-family: 'sinkin_sans400_regular';
+}
+
+::selection {
+	background-color: #f84342;
+}
+
+// MEDIA QUERIES:
+@media (max-width: 750px) {
+	.footer-blurb {
+		text-align: left;
+	}
 }
