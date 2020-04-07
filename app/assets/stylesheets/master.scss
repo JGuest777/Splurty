@@ -79,7 +79,7 @@ hr {
 h1 {
 	font-family: 'sinkin_sans400_regular';
 	font-weight: bold;
-	font-size: 42px;
+	font-size: 40px;
 	line-height: 1.6;
 }
 
@@ -126,5 +126,9 @@ h2 span {
 @media (max-width: 750px) {
 	.footer-blurb {
 		text-align: left;
+	}
+
+	h1 {
+		font-size: 6vw;
 	}
 }
