@@ -6,6 +6,9 @@ A database-powered quote generator with a mobile-first design, using the Ruby on
 
 <img src="images/contribute.PNG">
 
+
+<img src="images/index2.PNG" width="434"> <img src="images/contribute2.PNG" width="434">
+
 ## Deployment
 
 * [http://splurty-james-guest.herokuapp.com/](http://splurty-james-guest.herokuapp.com/)
